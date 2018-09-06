@@ -1,0 +1,29 @@
+{
+  "name": "world-gov-game-frontend",
+  "version": "0.1.0",
+  "description": "world gov game frontend",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "production": "react-scripts build && react-scripts start",
+    "docker-build": "docker build --tag repo.treescale.com/ruifernandes/world-gov-game-frontend:latest .",
+    "docker-push": "docker push repo.treescale.com/ruifernandes/world-gov-game-frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruimfernandes/world-gov-game-frontend.git"
+  },
+  "author": "Rui Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruimfernandes/world-gov-game-frontend/issues"
+  },
+  "homepage": "https://github.com/ruimfernandes/world-gov-game-frontend#readme",
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
+  }
+}
